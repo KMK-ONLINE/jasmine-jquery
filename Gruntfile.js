@@ -12,7 +12,8 @@ module.exports = function (grunt) {
           , "spec/**/*.js"
         ]
       , options: {
-          jshintrc: '.jshintrc'
+          jshintrc: '.jshintrc',
+          reporterOutput: ""
         },
       }
     , jasmine: {
